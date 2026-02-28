@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pku-syllabus/static/css/main.02d80fc1.chunk.css",
-    "main.js": "/pku-syllabus/static/js/main.fd53e561.chunk.js",
-    "main.js.map": "/pku-syllabus/static/js/main.fd53e561.chunk.js.map",
+    "main.css": "/pku-syllabus/static/css/main.0b3672b0.chunk.css",
+    "main.js": "/pku-syllabus/static/js/main.897a83d0.chunk.js",
+    "main.js.map": "/pku-syllabus/static/js/main.897a83d0.chunk.js.map",
     "runtime-main.js": "/pku-syllabus/static/js/runtime-main.bc3ea6f4.js",
     "runtime-main.js.map": "/pku-syllabus/static/js/runtime-main.bc3ea6f4.js.map",
     "static/js/2.13929ff9.chunk.js": "/pku-syllabus/static/js/2.13929ff9.chunk.js",
     "static/js/2.13929ff9.chunk.js.map": "/pku-syllabus/static/js/2.13929ff9.chunk.js.map",
     "index.html": "/pku-syllabus/index.html",
-    "static/css/main.02d80fc1.chunk.css.map": "/pku-syllabus/static/css/main.02d80fc1.chunk.css.map",
+    "static/css/main.0b3672b0.chunk.css.map": "/pku-syllabus/static/css/main.0b3672b0.chunk.css.map",
     "static/js/2.13929ff9.chunk.js.LICENSE.txt": "/pku-syllabus/static/js/2.13929ff9.chunk.js.LICENSE.txt",
     "static/media/elective_instruction.d66cff16.jpg": "/pku-syllabus/static/media/elective_instruction.d66cff16.jpg",
     "static/media/figure.254bf09e.png": "/pku-syllabus/static/media/figure.254bf09e.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.bc3ea6f4.js",
     "static/js/2.13929ff9.chunk.js",
-    "static/css/main.02d80fc1.chunk.css",
-    "static/js/main.fd53e561.chunk.js"
+    "static/css/main.0b3672b0.chunk.css",
+    "static/js/main.897a83d0.chunk.js"
   ]
 }
