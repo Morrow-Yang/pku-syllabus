@@ -58,13 +58,13 @@ export class ImportElective extends Component {
 
             let desc_items=[];
             if(this.state.desc_checked.indexOf(this.DESC_KEY.teacher)!==-1)
-                desc_items.push(row.querySelector('td:nth-child(5)').textContent.replace(/[,，、].+$/,'等').replace(/\(.+\)/,''));
+                desc_items.push(row.querySelector('td:nth-child(6)').textContent.replace(/[,，、].+$/,'等').replace(/\(.+\)/,''));
             if(this.state.desc_checked.indexOf(this.DESC_KEY.classid)!==-1)
-                desc_items.push(row.querySelector('td:nth-child(6)').textContent+'班');
+                desc_items.push(row.querySelector('td:nth-child(7)').textContent+'班');
             if(this.state.desc_checked.indexOf(this.DESC_KEY.coursetype)!==-1)
-                desc_items.push(row.querySelector('td:nth-child(2)').textContent);
+                desc_items.push(row.querySelector('td:nth-child(3)').textContent);
             if(this.state.desc_checked.indexOf(this.DESC_KEY.credits)!==-1)
-                desc_items.push(row.querySelector('td:nth-child(3)').textContent.replace(/\.0$/,'')+'学分');
+                desc_items.push(row.querySelector('td:nth-child(4)').textContent.replace(/\.0$/,'')+'学分');
 
             let desc=desc_items.join('，');
 
