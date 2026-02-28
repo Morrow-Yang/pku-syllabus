@@ -41,14 +41,16 @@ export class ImportElective extends Component {
         let co=Array.from(table.querySelectorAll('.datagrid-even, .datagrid-odd, .datagrid-all')).map((row,idx)=>{
             let name=row.querySelector('td:nth-child(1)').textContent;
 
-            let info_elem=row.querySelector('td:nth-child(8)');
+            // 教室信息列从第8列变为第9列（新增“自选P/NP”列）。
+            let info_elem=row.querySelector('td:nth-child(9)');
             if(info_elem.querySelector('span'))
                 info_elem=info_elem.querySelector('span');
             let infos=Array.from(info_elem.childNodes)
                 .filter((node)=>node.nodeName.toLowerCase()==='#text')
                 .map((node)=>node.textContent);
 
-            let status_elem=row.querySelector('td:nth-child(9)');
+            // 选课结果列从第9列移动到第11列。
+            let status_elem=row.querySelector('td:nth-child(11)');
             let status=status_elem?status_elem.textContent:'?';
 
             if(status==='未选上')
