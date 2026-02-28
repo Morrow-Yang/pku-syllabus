@@ -7,23 +7,25 @@
     "@craco/craco": "^6.4.3",
     "antd": "^4.18.5",
     "craco-less": "1.20",
-    "react-error-overlay": "6.0.9",
     "ical-generator": "^1.7.2",
     "md5": "^2.2.1",
     "moment": "^2.29.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-error-overlay": "6.0.9",
     "react-scripts": "^4.0.3",
     "react-timeago": "^6.2.1"
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build"
+    "build": "craco build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": ".",
+  "homepage": "https://Morrow-Yang.github.io/pku-syllabus",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -35,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
