@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pku-syllabus/static/css/main.02d80fc1.chunk.css",
-    "main.js": "/pku-syllabus/static/js/main.abe84a70.chunk.js",
-    "main.js.map": "/pku-syllabus/static/js/main.abe84a70.chunk.js.map",
+    "main.js": "/pku-syllabus/static/js/main.c039fce9.chunk.js",
+    "main.js.map": "/pku-syllabus/static/js/main.c039fce9.chunk.js.map",
     "runtime-main.js": "/pku-syllabus/static/js/runtime-main.bc3ea6f4.js",
     "runtime-main.js.map": "/pku-syllabus/static/js/runtime-main.bc3ea6f4.js.map",
     "static/js/2.13929ff9.chunk.js": "/pku-syllabus/static/js/2.13929ff9.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bc3ea6f4.js",
     "static/js/2.13929ff9.chunk.js",
     "static/css/main.02d80fc1.chunk.css",
-    "static/js/main.abe84a70.chunk.js"
+    "static/js/main.c039fce9.chunk.js"
   ]
 }
