@@ -39,7 +39,7 @@ export class ImportElective extends Component {
 
         let skip_co=[];
         let co=Array.from(table.querySelectorAll('.datagrid-even, .datagrid-odd, .datagrid-all')).map((row,idx)=>{
-            let name=row.querySelector('td:nth-child(1)').textContent;
+            let name=row.querySelector('td:nth-child(2)').textContent;
 
             // 教室信息列从第8列变为第9列（新增“自选P/NP”列）。
             let info_elem=row.querySelector('td:nth-child(9)');
